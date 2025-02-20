@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    /* background-color: bisque; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.connexion{
+    background-color: E7E7E7;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 65px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.inscription{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 65px;
+    cursor: pointer;
+}
